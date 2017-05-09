@@ -1,7 +1,7 @@
 <?php 
 
 date_default_timezone_set("Europe/Amsterdam"); 
-$time = "19:01";
+$time = date("H:i:s");
 
 ?>
 

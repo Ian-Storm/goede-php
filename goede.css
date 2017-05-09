@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@font-face{
+	font-family: sans;
+	src:url(LDFComicSansLight.ttf);
+}
+
+body{
+	text-align: center;
+	font-family: sans;
+}
+
+h1, p{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: red;
+}
+
+h1{
+	top: 38%;
+	font-size: 100px;
+}
+
+p{
+	font-size: 50px;
+}
